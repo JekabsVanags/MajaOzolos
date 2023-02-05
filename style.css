@@ -1,0 +1,413 @@
+p{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#atsauksmes p , td{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 20px;
+    color: rgb(82, 87, 81);
+}
+
+h1
+{
+    font-family: 'Libre Baskerville', serif;
+    font-weight:bold;
+    font-size:300%;
+    text-align: center;
+    color:white;
+    margin: 0px;
+}
+
+h2
+{
+    font-family: 'Libre Baskerville', serif;
+    font-weight:bold;
+    font-size:180%;
+    text-align: center;
+    width: 50vw;
+    float: right;
+}
+
+h3
+{
+    font-family: 'Libre Baskerville', serif;
+    font-weight:bold;
+    font-size:180%;
+    text-align: center;
+}
+
+h4
+{
+    font-family: 'Libre Baskerville', serif;
+    font-size:120%;
+
+}
+
+h5
+{
+    font-family: 'Libre Baskerville', serif;
+    font-size:100%; 
+    margin: 0px;
+}
+
+hr
+{
+    border-top: 4px dotted rgba(37, 70, 37, 0.644);
+    margin: 5px 0px;
+}
+
+header
+{
+    display: unset;
+}
+
+#topic
+{
+    display: flex;
+    background-color: rgb(40, 40, 66);
+    background-size: cover;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+input.error 
+{
+    border-color:red;
+}
+
+#errormsg
+{
+    color:red;
+    font-size: 90%;
+    font-family: 'Cabin Condensed', sans-serif;
+    max-width: 20vw;
+    margin-top: 5px;
+}
+
+nav
+{ 
+    position: sticky;
+    top: 0;
+    background-color:rgb(173, 189, 173);
+    margin: 2px;
+    z-index: 2;
+    font-weight: bold;
+}
+
+nav div
+{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+nav a
+{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 120%;
+    text-transform: uppercase;
+    font-family: 'Cabin Condensed', sans-serif;
+    transition: 0.5s;
+}
+
+nav a:hover
+{
+    color: rgb(95, 107, 95);
+}
+
+#side-menu
+{
+
+    float: left;
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+    width: 15vw;
+    font-weight: bold;
+
+}
+
+aside p, aside a
+{
+    display: inline-block;
+    color: rgb(173, 189, 173);
+    text-decoration: none;
+    font-size: 160%;
+    text-transform: uppercase;
+    font-family: 'Cabin Condensed', sans-serif; 
+}
+#top-photo
+{
+    float: right;
+    width: 80vw;
+    height: 70vh;
+    background-image: url("images/Bilde_sadalai_Lauku_maja - Copy.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section
+{
+    display: inline-block;
+    width: 95vw;
+    text-align: center;
+    margin:20px 0px;
+}
+
+section img
+{
+    border:1vh solid rgba(173, 189, 173, 0.3);
+    border-radius: 50px;
+    float:left;
+    width: 40vw;
+    height: auto;
+    margin-right: 10px;
+}
+
+section p
+{
+    width:50vw;
+    float:right;
+}
+
+#galery
+{   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#galery:hover > img#rightbttm ,div#galery:hover > img#leftbttm
+{
+    opacity: 1;
+}
+
+#galery #gal{
+    height: 60vh;
+    max-width: 90vw;
+    width: auto;
+    overflow: auto;
+}
+
+#galery #rightbttm
+{
+    position: absolute;
+    top: 240px;
+    right: 10px;
+    z-index: 1;
+    opacity: 0;
+    transition: 1s;
+}
+
+#galery #leftbttm
+{
+    position: absolute;
+    left:10px;
+    top:240px;
+    transform: scaleX(-1);
+    z-index: 1;
+    opacity: 0;
+    transition: 1s;
+}
+
+#atsauksmes h2
+{
+    width: 100%;
+}
+
+#atsauksmes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+#atsauksmes div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#pricing
+{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-collapse: collapse;
+    min-width: 300px;
+    margin: 0px 50px 50px 50px;
+}
+
+#pricing thead
+{
+    background-color: rgb(95, 107, 95);
+    color:white;
+    font-size: 1.2em;
+}
+
+#pricing tr
+{
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+#lokairbnb
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+form
+{
+    font-family:'Cabin Condensed', sans-serif; 
+    box-sizing: border-box;
+}
+
+form input
+{
+    margin-bottom: 5px;
+}
+
+
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(95, 107, 95);
+    color: white;
+    padding: 10px;
+}
+footer div
+{
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+div.symbol
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(173, 189, 173);
+    border-radius: 50%;
+    width: 60px;
+    height:60px;
+    margin:10px;
+}
+
+@media only screen and (max-width: 700px) {
+    #atsauksmes
+    {
+        flex-direction: column;
+    }
+
+    nav
+    {
+        position: static;
+    }
+
+    #gal
+    {
+        width: 80vw;
+        height: auto;
+        max-width: 650px;
+        object-fit: cover;
+    }
+
+    nav div
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    #atsauksmes h2
+     {
+         width: 100%;
+         writing-mode: horizontal-tb;
+         transform: rotate(0deg);
+     }
+
+     footer
+     {
+        flex-direction: column;
+     }
+
+    h2
+    {
+        text-align: center;
+        width: 100vw;
+    }
+
+    section img
+    {
+        float: none;
+        margin-right: 0px;
+        width: 80vw;
+        height: auto;
+    }
+    section p
+    {
+        float: none;
+        width:95vw;
+        height: auto;
+        margin:0px;
+    }
+    #pricing
+    {
+        margin: 0px;
+    }
+
+    #lokairbnb
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #maphere
+    {
+        width: 96vw;
+    }      
+}
+@media print {
+    #lokairbnb div
+    {
+        display: none;
+    }
+    #galery
+    {
+        display: none;
+    }
+    nav
+    {
+        display:none;
+    }
+    aside
+    {
+        display: none;
+    }
+    footer
+    {
+       flex-direction: column;
+    }
+  }
